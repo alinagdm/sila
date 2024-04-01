@@ -6790,7 +6790,7 @@ fieldset:disabled .btn {
   display: flex;
   justify-content: flex-end;
 }
-.dropdown .d-none .d-lg-block{
+.dropdown.d-none.d-lg-block{
   margin-right: 50px;
 }
 .modal-open {
