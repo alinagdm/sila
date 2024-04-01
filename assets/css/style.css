@@ -17694,6 +17694,7 @@ input[type="text"] {
 .modal-block{
   display: flex;
   justify-content: space-between;
+  max-width: 512px;
 }
 .modal-block li a img{
   padding: 10px;
@@ -19531,7 +19532,7 @@ div#youtube-video{
 .widget-list-item{
   margin: 25px 0 30px;
 }
-.widget-list-item a{
+.widget-list-item li a{
   font-size: 20px;
 }
 .widget-item li,
