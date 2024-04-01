@@ -124,11 +124,7 @@ h1{
   font-weight:600 ;
 
 }
-@media (min-width: 1200px) {
-  h1, .h1 {
-    font-size: 2.5rem;
-  }
-}
+
 
 h2, .h2 {
   font-size: calc(1.325rem + 0.9vw);
@@ -16738,7 +16734,8 @@ line-height: 24.38px;
 height: 30px;
 }
 .swiper-menu li.menu-item-has-children{
-  height: 30px;
+  line-height: 27.38px;
+  padding: 5px 0px;
   border-bottom: 1px solid #E6E6E6;
 }
 .menu-item-has-children a{
@@ -17853,7 +17850,7 @@ a.search-btn.bt:hover{
     width: 80%;
   }
   .swiper-container .two .slider-image img{
-    width: 60%;
+    /* width: 60%; */
   }
 }
 @media(min-width:2600px){
