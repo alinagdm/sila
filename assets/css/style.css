@@ -6786,7 +6786,13 @@ fieldset:disabled .btn {
   padding: 0.75rem;
   word-wrap: break-word;
 }
-
+.modal-cont{
+  display: flex;
+  justify-content: flex-end;
+}
+.dropdown .d-none .d-lg-block{
+  margin-right: 50px;
+}
 .modal-open {
   overflow: hidden;
 }
@@ -17693,8 +17699,7 @@ input[type="text"] {
 }
 .modal-block{
   display: flex;
-  justify-content: space-between;
-  max-width: 512px;
+  justify-content: flex-end
 }
 .modal-block li a img{
   padding: 10px;
