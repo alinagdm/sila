@@ -1,0 +1,63 @@
+/* Delivery & Payment */
+h1{
+    justify-content: center;
+    margin: 50px 0;
+}
+section{
+    padding: 50px 0;
+}
+.delivery-info{
+    text-align: center;
+}
+.form_delivery [type="checkbox"]:not(:checked) + label, [type="checkbox"]:checked + label {
+    position: relative;
+    padding-left: 2.3em;
+    font-size: 1.05em;
+    line-height: 1.7;
+    cursor: pointer;
+}
+.form-control{
+    margin: 10px 0;
+}
+.main-default-block{
+    background: url('../../assets/images/background-img/д-3.png') no-repeat center center /  cover;
+    height: 100%;
+    max-height: 600px;
+}
+.form_delivery {
+    max-width: 700px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    padding: 64px;
+}
+.form-block{
+    padding: 0px;
+}
+.username{
+    display: flex;
+}
+.username input:first-child {
+    margin-right: 10px;}
+textarea#form-field-message {
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px;
+        margin-top: 10px;
+        box-shadow: 0px 3px 8px 0px #0000003D;
+        border:none
+    }
+
+/* Delivery & Payment end */
+/* Req */
+tr{
+    border-bottom: 2px solid #ddd;
+}
+td{
+    padding: 20px 0 ;
+}
+/* Req */
+/* About */
+.about-img img{
+    border-radius: 20px;
+}
+/* About */

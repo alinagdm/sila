@@ -52,9 +52,6 @@
                         </div>
                         <div class="col-6">
                             <div class="header-top-сenter text-matterhorn">
-                                <!-- <a href="#exampleModal" class="search-btn bt" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    <i class="pe-7s-search"></i>
-                                </a> -->
                                 <form action="#" class="hm-searchbox center form_header">
                                     <button class="search-btn" type="submit" aria-label="searchbtn"><i
                                             class="pe-7s-search"></i></button>
@@ -110,7 +107,7 @@
                                                         <a href="">Отзывы</a>
                                                     </li>
                                                     <li>
-                                                        <a href="">О компании</a>
+                                                        <a href="about.html">О компании</a>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -121,7 +118,7 @@
                                                 <a href="contact.html">Калькулятор металла</a>
                                             </li>
                                             <li>
-                                                <a href="contact.html">О компании</a>
+                                                <a href="about.html">О компании</a>
                                             </li>
 
 
@@ -132,45 +129,68 @@
                             </div>
                         </div>
                         <div class="col-4 col-lg-5">
-
                             <ul class="modal-block">
                                 <li class="dropdown d-none d-lg-block">
-                                    <a href="#exampleModal" class="search-btn bt" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModal">
+                                    <a href="#callBack" class="search-btn bt" data-bs-toggle="modal"
+                                        data-bs-target="#callBack">
                                         <img src="assets/images/icons/phone.svg">Заказать звонок
                                     </a>
                                 </li>
                                 <li class="d-none d-lg-block">
-                                    <a href="mailto:" class="search-btn bt" >
+                                    <a href="mailto:" class="search-btn bt">
                                         <img src="assets/images/icons/mail.svg">Отправить письмо
                                     </a>
                                 </li>
-
-                                
                             </ul>
-
                         </div>
                     </div>
                 </div>
             </div>
             <div class="mobile-menu_wrapper" id="mobileMenu">
-                
                 <div class="header-top header-sticky border-bottom d-lg-block">
                     <div class="container-fluid">
                         <div class="row align-items-center header-block">
-                            <div class="col-xl-2 col-2 col-xs-5">
+                            <div class="col-xl-2 col-4 col-xs-5">
                                 <div class="header-top-left">
                                     <a href="index.html" class="header-logo">
                                         МПК Сила
                                     </a>
-    
+
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-6 col-xs-5">
+                            <div class="col-xl-6 col-4 col-xs-3">
                                 <div class="header-top-сenter text-matterhorn">
-                                    <!-- <a href="#exampleSearch" class="search-btn bt" data-bs-toggle="modal" data-bs-target="#exampleSearch">
-                                        <i class="pe-7s-search"></i>
-                                    </a> -->
+                                    <div class="search-mobile"><a href="#searchModal" class="search-btn bt"
+                                            data-bs-toggle="modal" data-bs-target="#searchModal">
+                                            <i class="pe-7s-search"></i>
+                                        </a></div>
+                                    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModal"
+                                        aria-hidden="true">
+                                        <div class="modal-dialog modal-fullscreen">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close" data-tippy="Close" data-tippy-inertia="true"
+                                                        data-tippy-animation="shift-away" data-tippy-delay="50"
+                                                        data-tippy-arrow="true" data-tippy-theme="sharpborder">
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="modal-search">
+                                                        <span class="searchbox-info">Найти...</span>
+                                                        <form action="#" class="hm-searchbox center form_header">
+                                                            <button class="search-btn" type="submit"
+                                                                aria-label="searchbtn"><i
+                                                                    class="pe-7s-search"></i></button>
+                                                            <input type="text" name="Поиск" value="Поиск"
+                                                                onblur="if(this.value==''){this.value='Поиск'}"
+                                                                onfocus="if(this.value=='Поиск'){this.value=''}">
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <form action="#" class="hm-searchbox center form_header">
                                         <button class="search-btn" type="submit" aria-label="searchbtn"><i
                                                 class="pe-7s-search"></i></button>
@@ -181,52 +201,65 @@
                                 </div>
                             </div>
                             <div class="col-xl-4 col-4 col-xs-2">
-                                <!-- <div class="header-top-right text-matterhorn"> -->
                                 <ul class="dropdown-wrap dropdown-wraper">
-                                    
-                                    
-                                        <li class="dropdown  d-lg-block">
-                                            <a href="#exampleModal" class="search-btn bt" data-bs-toggle="modal"
-                                                data-bs-target="#exampleModal">
-                                                <img src="assets/images/icons/phone.svg">
-                                            </a>
-                                        </li>
-                                        <li class=" d-lg-block">
-                                            <a href="#mailModal" class="search-btn bt" data-bs-toggle="modal"
-                                                data-bs-target="#mailModal">
-                                                <img src="assets/images/icons/mail.svg">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <div class="mobile-nav-button">
-                                                <div class="mobile-nav-button__line"></div>
-                                                <div class="mobile-nav-button__line"></div>
-                                                <div class="mobile-nav-button__line"></div>
-                                              </div>
-                                          
-                                              <nav class="mobile-menu">
-                                                <ul>
-                                                  <li><a href="">О компании</a></li>
-                                                  <li><a href="">Услуги</a></li>
-                                                  <li><a href="">Контакты</a></li>
-                                                  <li><a href="">Калькулятор металла</a></li>									
-                                                  <li><a href="">Вакансии</a></li>									
-                                                  <li><a href="">Блог</a></li>									
-                                                </ul>
-                                              </nav>
-                                        </ul>
-                                        </li>
-        
-                                        
-                                    
-                                
+
+
+                                    <li class="dropdown  d-lg-block">
+                                        <a href="#callBack" class="search-btn bt" data-bs-toggle="modal"
+                                            data-bs-target="#callBack">
+                                            <img src="assets/images/icons/phone.svg">
+                                        </a>
+                                    </li>
+                                    <li class=" d-lg-block">
+                                        <a href="mailto:" class="search-btn bt">
+                                            <img src="assets/images/icons/mail.svg">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <div class="mobile-nav-button">
+                                            <div class="mobile-nav-button__line"></div>
+                                            <div class="mobile-nav-button__line"></div>
+                                            <div class="mobile-nav-button__line"></div>
+                                        </div>
+
+                                        <nav class="mobile-menu">
+                                            <ul class="menu-slide">
+                                                <li class="">
+                                                    <a href="about.html">
+                                                        <span class="mm-text left-m-text">О компании
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item-has-children">
+                                                    <a href="#">
+                                                        <span class="mm-text left-m-text">Услуги
+                                                            <i class="pe-7s-angle-down"></i>
+                                                        </span>
+                                                    </a>
+                                                    <ul class="submenu"> <!-- Добавлен класс submenu -->
+                                                        <li>
+                                                            <a href="#">
+                                                                <span class="mm-text">Токарная обработка
+                                                                    нержавейки</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+
+
+
+
+                                        </nav>
+                                </ul>
+                                </li>
                                 <!-- </div> -->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModal" aria-hidden="true">
+            <div class="modal fade" id="callBack" tabindex="-1" aria-labelledby="callBack" aria-hidden="true">
                 <div class="modal-dialog modal-fullscreen">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -237,26 +270,27 @@
                         </div>
                         <div class="modal-body">
                             <div class="modal-search">
-                            
-                                    <!-- <div class="wrapper"> -->
-                                        <form class="form-ans">  
-                                            <h3 class="searchbox-info">Заказать звонок</h3>
-                                <span>Оставьте заявку и наши специалисты 
-                                    свяжутся с вами в кратчайшее время.</span>     
-                                          <div class="form-block"><input type="text" class="form-control" name="username" placeholder="Имя" required="" autofocus="" />
-                                          <input type="password" class="form-control" name="password" placeholder="телефон" required=""/> 
-                                          <p>
-                                            <input type="checkbox" id="test1" value="remember-me" id="rememberMe" name="rememberMe" />
+
+                                <!-- <div class="wrapper"> -->
+                                <form class="form-ans">
+                                    <h3 class="searchbox-info">Заказать звонок</h3>
+                                    <span>Оставьте заявку и наши специалисты
+                                        свяжутся с вами в кратчайшее время.</span>
+                                    <div class="form-block"><input type="text" class="form-control" name="username"
+                                            placeholder="Имя" required="" autofocus="" />
+                                        <input type="password" class="form-control" name="password"
+                                            placeholder="телефон" required="" />
+                                        <p>
+                                            <input type="checkbox" id="test1" value="remember-me" id="rememberMe"
+                                                name="rememberMe" />
                                             <label for="test1">Согласие на обработку персональных данный</label>
-                                          </p> </div>    
-                                          
-                                          <button class="btn_red btn-form" type="submit">Отправить</button>   
-                                        </form>
-                                      <!-- </div> -->
-                                <!-- <form action="#" class="hm-searchbox">
-                                    <input type="text" name="Search entire store here..." value="Search entire store here..." onblur="if(this.value==''){this.value='Search entire store here...'}" onfocus="if(this.value=='Search entire store here...'){this.value=''}">
-                                    <button class="search-btn" type="submit" aria-label="searchbtn"><i class="pe-7s-search"></i></button>
-                                </form> -->
+                                        </p>
+                                    </div>
+
+                                    <button class="btn_red btn-form" type="submit">Отправить</button>
+                                </form>
+                                <!-- </div> -->
+
                             </div>
                         </div>
                     </div>
@@ -274,6 +308,23 @@
                         <div class="modal-body">
                             <div class="modal-search">
                                 <span class="searchbox-info">Рассчитать стоимость</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="mailModal" tabindex="-1" aria-labelledby="mailModal" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                                data-tippy="Close" data-tippy-inertia="true" data-tippy-animation="shift-away"
+                                data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="modal-search">
+                                <span class="searchbox-info">Email</span>
                                 <!-- <form action="#" class="hm-searchbox">
                                     <input type="text" name="Search entire store here..." value="Search entire store here..." onblur="if(this.value==''){this.value='Search entire store here...'}" onfocus="if(this.value=='Search entire store here...'){this.value=''}">
                                     <button class="search-btn" type="submit" aria-label="searchbtn"><i class="pe-7s-search"></i></button>
@@ -283,7 +334,7 @@
                     </div>
                 </div>
             </div>
-            <div class="modal fade" id="mailModal" tabindex="-1" aria-labelledby="mailModal" aria-hidden="true">
+            <div class="modal fade" id="callBack" tabindex="-1" aria-labelledby="callBack" aria-hidden="true">
                 <div class="modal-dialog modal-fullscreen">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -327,19 +378,64 @@
                         <ul class="menu-slide">
                             <li class="menu-item-has-children">
                                 <a href="#">
-                                    <span class="mm-text left-m-text ">Токарная обработка металла
+                                    <span class="mm-text left-m-text">Токарная обработка металла
                                         <i class="pe-7s-angle-down"></i>
                                     </span>
                                 </a>
                                 <ul class="sub-menu">
                                     <li>
-                                        <a href="index.html">
+                                        <a href="uslugi.html">
                                             <span class="mm-text">Токарная обработка нержавейки</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="index-2.html">
+                                        <a href="uslugi.html">
                                             <span class="mm-text">Токарная обработка алллюминия </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="uslugi.html">
+                                            <span class="mm-text">Токарная обработка латуни</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="uslugi.html">
+                                            <span class="mm-text">Плазменная резка металла</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="uslugi.html">
+                                            <span class="mm-text">Токарная обработка латуни</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="uslugi.html">
+                                            <span class="mm-text">Токарная обработка меди</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="uslugi.html">
+                                            <span class="mm-text">Токарная обработка титана</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="uslugi.html">
+                                            <span class="mm-text">Токарная обработка капролона (пластик)</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="uslugi.html">
+                                            <span class="mm-text">Токарно-револьверные работы</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="uslugi.html">
+                                            <span class="mm-text">Плоскошлифовальные работы</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="uslugi.html">
+                                            <span class="mm-text">Токарно-фрезерные работы</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -353,12 +449,37 @@
                                 <ul class="sub-menu">
                                     <li>
                                         <a href="index.html">
-                                            <span class="mm-text">Токарная обработка нержавейки</span>
+                                            <span class="mm-text">Фрезерная обработка нержавейки</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="index-2.html">
-                                            <span class="mm-text">Токарная обработка алллюминия </span>
+                                            <span class="mm-text">Фрезерная обработка алюминия</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="index-2.html">
+                                            <span class="mm-text"> Фрезерная обработка латуни</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="index-2.html">
+                                            <span class="mm-text">Фрезерная обработка бронзы</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="index-2.html">
+                                            <span class="mm-text">Фрезерная обработка меди</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="index-2.html">
+                                            <span class="mm-text">Фрезерная обработка титана</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="index-2.html">
+                                            <span class="mm-text">Фрезерная обработка капролона (пластик)</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -372,12 +493,67 @@
                                 <ul class="sub-menu">
                                     <li>
                                         <a href="index.html">
-                                            <span class="mm-text left-m-text">Токарная обработка нержавейки</span>
+                                            <span class="mm-text">Лазерная резка алюминия</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="index-2.html">
-                                            <span class="mm-text">Токарная обработка алллюминия </span>
+                                            <span class="mm-text">Лазерная резка нержавейки</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="index-2.html">
+                                            <span class="mm-text">Лазерная резка нержавейки</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="index-2.html">
+                                            <span class="mm-text">Лазерная резка меди</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="index-2.html">
+                                            <span class="mm-text">Лазерная резка латуни</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="index-2.html">
+                                            <span class="mm-text">Лазерная резка титана</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="index-2.html">
+                                            <span class="mm-text">Лазерная резка бронзы</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="index-2.html">
+                                            <span class="mm-text">Резка конструкционной стали</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="index-2.html">
+                                            <span class="mm-text">Лазерная резка броневой стали</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="index-2.html">
+                                            <span class="mm-text">Лазерная гравировка</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="index-2.html">
+                                            <span class="mm-text">Лазерная резка углеродистой стали</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="index-2.html">
+                                            <span class="mm-text">Лазерная резка низкоуглеродистой стали</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="index-2.html">
+                                            <span class="mm-text">Резка металла</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -737,7 +913,7 @@
                                 <h3 class="offer">Мы ценим время заказчика и
                                     делаем всё, качественно
                                     и в указанный срок</h3>
-                                    
+
                             </div>
                         </div>
                     </div>
@@ -787,7 +963,7 @@
                             <div class="">
 
                                 <h2 class="title">Ответственный подход</h2>
-                                <h3 class="offer">Ответственность исполнения в каждом 
+                                <h3 class="offer">Ответственность исполнения в каждом
                                     заказе</h3>
 
                             </div>
@@ -799,13 +975,13 @@
                         <div class="banner-img img-zoom-effect">
                             <div class="service-box">
                                 <div class="number"><img src="assets/images/svg/5.svg"></div>
-                                <div class="icon-banner"><img
-                                        src="assets/images/svg/free-icon-iron-4027052 1.svg"></div>
+                                <div class="icon-banner"><img src="assets/images/svg/free-icon-iron-4027052 1.svg">
+                                </div>
                             </div>
                             <div class="">
 
                                 <h2 class="title">Работаем со всеми металлами</h2>
-                                <h3 class="offer">Титан, нержавейка, дюраль, алюминий, 
+                                <h3 class="offer">Титан, нержавейка, дюраль, алюминий,
                                     все цветные металлы</h3>
 
                             </div>
@@ -817,13 +993,13 @@
                         <div class="banner-img img-zoom-effect">
                             <div class="service-box">
                                 <div class="number"><img src="assets/images/svg/6.svg"></div>
-                                <div class="icon-banner"><img
-                                        src="assets/images/svg/free-icon-place-2717969 1.svg"></div>
+                                <div class="icon-banner"><img src="assets/images/svg/free-icon-place-2717969 1.svg">
+                                </div>
                             </div>
                             <div class="">
 
                                 <h2 class="title">Удобное месторасположение</h2>
-                                <h3 class="offer">Производство размещено 
+                                <h3 class="offer">Производство размещено
                                     у метро Варшавская</h3>
 
                             </div>
@@ -847,35 +1023,35 @@
             <div class="row">
                 <div class="col-xl-3 col-md-6 steps-min">
                     <div class="steps-block">
-                    <h2 class="title">Постановка задачи</h2>
-                    <h3 class="offer">Вы присылаете
-                        чертеж или эскиз</h3>
-                    <div class="steps_num"><span>1</span></div>
-                </div>
-                </div>
-                <div class="col-xl-3 col-md-6 steps-max">
-                    <div class="steps-block">
-                    <h2 class="title">Расчет стоимости</h2>
-                    <h3 class="offer">Вы получаете расчет стоимости,
-                        исходя из задачи</h3>
-                    <div class="steps_num"><span>2</span></div>
-                </div>
+                        <h2 class="title">Постановка задачи</h2>
+                        <h3 class="offer">Вы присылаете
+                            чертеж или эскиз</h3>
+                        <div class="steps_num"><span>1</span></div>
+                    </div>
                 </div>
                 <div class="col-xl-3 col-md-6 steps-max">
                     <div class="steps-block">
-                    <h2 class="title">Согласование</h2>
-                    <h3 class="offer">Обсуждение деталей нюансов
-                        чертежа, цены и сроков</h3>
-                    <div class="steps_num"><span>3</span></div>
+                        <h2 class="title">Расчет стоимости</h2>
+                        <h3 class="offer">Вы получаете расчет стоимости,
+                            исходя из задачи</h3>
+                        <div class="steps_num"><span>2</span></div>
+                    </div>
                 </div>
+                <div class="col-xl-3 col-md-6 steps-max">
+                    <div class="steps-block">
+                        <h2 class="title">Согласование</h2>
+                        <h3 class="offer">Обсуждение деталей нюансов
+                            чертежа, цены и сроков</h3>
+                        <div class="steps_num"><span>3</span></div>
+                    </div>
                 </div>
                 <div class="col-xl-3 col-md-6 steps-min">
                     <div class="steps-block">
-                    <h2 class="title">Старт работ</h2>
-                    <h3 class="offer">Заключаем договор,
-                        выполняем работу срок</h3>
-                    <div class="steps_num"><span>4</span></div>
-                </div>
+                        <h2 class="title">Старт работ</h2>
+                        <h3 class="offer">Заключаем договор,
+                            выполняем работу срок</h3>
+                        <div class="steps_num"><span>4</span></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -889,7 +1065,7 @@
         <div class="container-fluid">
             <div class="section-title pb-55">
                 <h2 class="title mb-0">Наши клиенты</h2>
-                <h3 class="offer">Нам доверяют как крупные компании, 
+                <h3 class="offer">Нам доверяют как крупные компании,
                     так и частные клиенты</h3>
             </div>
             <div class="row">
@@ -985,7 +1161,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-4 pt-8 pt-lg-0">
+                    <div class="col-lg-3 col-md-12 col-sm-12 pt-8 pt-lg-0">
                         <div class="widget-item">
 
                             <ul class="widget-list-item">
@@ -1016,7 +1192,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-4 pt-8 pt-lg-0">
+                    <div class="col-lg-3 col-md-12 col-sm-12 pt-8 pt-lg-0">
                         <div class="widget-item">
 
                             <ul class="widget-list-item">
@@ -1044,7 +1220,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-4 pt-8 pt-lg-0">
+                    <div class="col-lg-3 col-md-12 col-sm-12 pt-8 pt-lg-0">
                         <div class="widget-item">
 
                             <div style="position:relative;overflow:hidden;"><a
