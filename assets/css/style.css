@@ -21368,6 +21368,7 @@ div#youtube-video{
   height: 400px !important;
   object-fit: cover;
   border-radius: 10px;
+  width: 100%;
 }
 .breadcrumb-area .youtube-embed h3{
   position: absolute;
