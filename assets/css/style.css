@@ -17586,6 +17586,9 @@ button.swiper-pagination-bullet {
       -ms-flex-align: center;
           align-items: center;
 }
+.dropdown-wrap .dropdown-wraper li a{
+  font-weight: 600;
+}
 
 .dropdown-wrap li .ht-btn {
   padding-top: 15px;
