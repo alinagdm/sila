@@ -17726,9 +17726,15 @@ box-shadow: 0px 93px 26px 0px #26262600;
 
 }
 .header-middle{
-  box-shadow: 0px 16px 56px 0px #11111A1A;
-box-shadow: 0px 8px 24px 0px #11111A1A;
-box-shadow: 0px 4px 16px 0px #11111A1A;
+  box-shadow: 0px 4px 8px 0px #2626261A;
+
+  box-shadow: 0px 15px 15px 0px #26262617;
+  
+  box-shadow: 0px 34px 20px 0px #2626260D;
+  
+  box-shadow: 0px 60px 24px 0px #26262603;
+  
+  box-shadow: 0px 93px 26px 0px #26262600;
 }
 
 /* ---Main Header--- */
