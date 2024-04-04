@@ -15978,10 +15978,10 @@ img {
 /* ---Section Title--- */
 .section-title .title {
   text-transform: none;
-  font-size: 56px;
+  font-size: 32px;
   font-weight: 600;
-  line-height: 68.26px;
-  color: #262626;
+  line-height: 30px;
+
 }
 
 @media (max-width: 479px) {
