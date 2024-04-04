@@ -15937,6 +15937,9 @@ img {
 
 .text-matterhorn * {
   color: #555252;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 250;
 }
 
 .text-charcoal * {
