@@ -20563,7 +20563,7 @@ div#youtube-video{
 .product-area .product-col{
   margin: 25px 0 25px;
 }
-.product-area h2.title{
+.product-area> .section-title> h2.title{
   font-size: 56px;
   line-height: 68.26px;
   font-weight: 400;
