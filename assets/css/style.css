@@ -17968,7 +17968,7 @@ a.search-btn.bt:hover{
      object-position: center center;
   width: 100%;
 }
-.banner img> .title{
+.banner img> h2.title{
   font-size: 32px;
   font-weight: 500;
   line-height: 31.01px;
