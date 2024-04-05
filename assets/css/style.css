@@ -16721,7 +16721,7 @@ blockquote .user-name:before {
   background: #fff;
   border: 1px solid #E6E6E6;
   border-radius: 10px;
-  top: 20px;
+  top: 0px;
   padding: 28px 22px;
 }
 .swiper-wrapper{
@@ -23435,11 +23435,11 @@ div#youtube-video{
   display: -ms-flexbox;
   display: box;
   display: flex;
-  -webkit-animation: marquee 25s linear infinite running;
-  -moz-animation: marquee 25s linear infinite running;
-  -o-animation: marquee 25s linear infinite running;
-  -ms-animation: marquee 25s linear infinite running;
-  animation: marquee 25s linear infinite running;
+  -webkit-animation: marquee 30s linear infinite running;
+  -moz-animation: marquee 30s linear infinite running;
+  -o-animation: marquee 30s linear infinite running;
+  -ms-animation: marquee 30s linear infinite running;
+  animation: marquee 30s linear infinite running;
 }
 .Marquee-content:hover {
   -webkit-animation-play-state: paused;
