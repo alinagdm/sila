@@ -356,7 +356,7 @@
 	if($('.brand-slider').elExists()){
 		var mySwiper = new Swiper('.brand-slider', {
 			slidesPerView: 3,
-			spaceBetween: 50,
+			spaceBetween: 50, 
 			loop: true,
 			loopedSlides: 7,
 			speed: 1000,
