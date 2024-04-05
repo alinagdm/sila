@@ -15983,6 +15983,12 @@ img {
   line-height: 30px;
 
 }
+.title-light{
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 68.26px;
+  color: #262626;
+}
 
 @media (max-width: 479px) {
   .section-title .title {
