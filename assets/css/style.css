@@ -23627,6 +23627,9 @@ div#youtube-video{
     background: #fff;
     border-radius: 10px;
 }
+.steps-block .title{
+  color: #AE3E3E;
+}
 
 }
 @media (max-width:1421px){
