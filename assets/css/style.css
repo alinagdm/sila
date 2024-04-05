@@ -19339,7 +19339,9 @@ a.search-btn.bt:hover{
   border-radius: 50%;
   position: relative;
 }
-
+.steps-block .title{
+  color: #AE3E3E;
+}
 
 .steps_num span{
   position: absolute;
@@ -23627,9 +23629,7 @@ div#youtube-video{
     background: #fff;
     border-radius: 10px;
 }
-.steps-block .title{
-  color: #AE3E3E;
-}
+
 
 }
 @media (max-width:1421px){
