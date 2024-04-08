@@ -371,7 +371,7 @@
 			allowTouchMove: false,
 			noSwiping: true,
 			noSwipingClass: 'swiper-no-swiping',
-			spaceBetween: 50,
+			spaceBetween: 120,
 			breakpoints: {
 				320: {
 					slidesPerView: 2,
