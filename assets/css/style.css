@@ -23673,3 +23673,7 @@ div#youtube-video{
     font-size: 12px;
   }
 }
+span.mm-text.left-m-text{
+  display: flex;
+  justify-content: space-between;
+}
