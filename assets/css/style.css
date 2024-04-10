@@ -19553,7 +19553,7 @@ div#youtube-video{
   margin: 25px 0 30px;
 }
 .widget-list-item li a{
-  font-size: 20px;
+  font-size: 24px;
 }
 .widget-item li,
 .widget-item a,
@@ -19584,6 +19584,9 @@ div#youtube-video{
 .widget-list-item > li i {
   margin-right: 20px;
   color: #df414b;
+}
+.footer-top{
+  margin-top: 25px;
 }
 .footer-area{
   background: #1C1B1B;
