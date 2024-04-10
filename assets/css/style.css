@@ -19549,7 +19549,7 @@ div#youtube-video{
   line-height: 24px;
   padding-bottom: 5px;
 }
-.widget-list-item:first-child{
+.widget-list-item{
   margin: 25px 0 30px;
 }
 .widget-list-item li a{
