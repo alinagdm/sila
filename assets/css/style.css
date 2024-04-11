@@ -16741,6 +16741,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 24.38px;
 height: 30px;
+padding-bottom: 8.5px;
 }
 .swiper-menu li.menu-item-has-children{
   line-height: 27.38px;
@@ -19549,7 +19550,7 @@ div#youtube-video{
   line-height: 24px;
   padding-bottom: 5px;
 }
-.widget-list-item{
+.widget-list-item:not(:first-child){
   margin: 25px 0 30px;
 }
 .widget-list-item li a{
