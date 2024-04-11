@@ -5214,7 +5214,9 @@ fieldset:disabled .btn {
   -webkit-box-shadow: 0 0 0 0.25rem;
           box-shadow: 0 0 0 0.25rem;
 }
-
+.ic-arrow{
+  content: ">";
+}
 .navbar-toggler-icon {
   display: inline-block;
   width: 1.5em;
