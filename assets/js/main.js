@@ -372,25 +372,25 @@
 			noSwiping: true,
 			noSwipingClass: 'swiper-no-swiping',
 			spaceBetween: 50,
-			breakpoints: {
-				320: {
-					slidesPerView: 2,
-					spaceBetween: 30,
-				},
-				480: {
-					slidesPerView: 2,
-					spaceBetween: 30,
-				},
-				768: {
-					slidesPerView: 2,
-				},
-				992: {
-					slidesPerView: 2,
-				},
-				1200: {
-					slidesPerView: 2,
-				}
-			}
+			// breakpoints: {
+			// 	320: {
+			// 		slidesPerView: 2,
+			// 		spaceBetween: 30,
+			// 	},
+			// 	480: {
+			// 		slidesPerView: 2,
+			// 		spaceBetween: 30,
+			// 	},
+			// 	768: {
+			// 		slidesPerView: 2,
+			// 	},
+			// 	992: {
+			// 		slidesPerView: 2,
+			// 	},
+			// 	1200: {
+			// 		slidesPerView: 2,
+			// 	}
+			// }
 		});
 			
 	}
