@@ -20528,11 +20528,7 @@ div#youtube-video{
   transition: 0.3s;
   padding: 25px;
 }
-.banner-img .img-zoom-effect .offer{
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 29.24px;
-}
+
 .banner-img:hover{
   box-shadow: 0px 16px 56px 0px #11111A1A;
 
@@ -23693,4 +23689,9 @@ div#youtube-video{
 span.mm-text.left-m-text{
   display: flex;
   justify-content: space-between;
+}
+.banner-img .img-zoom-effect .offer{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.24px;
 }
