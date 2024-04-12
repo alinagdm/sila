@@ -19575,11 +19575,10 @@ div#youtube-video{
  .contact-box{
    margin-top: 64px;
 } 
-/* .contact-box li a{
+.contact-box li a{
   font-weight: 500;
   font-size: 20px;
-  line-height: 24.38;
-}  */
+} 
 
 .widget-contact-info ul li:not(:last-child) {
   padding-bottom: 5px;
