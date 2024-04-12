@@ -20569,10 +20569,9 @@ div#youtube-video{
 }
 
 .offer{
-  font-weight: 300;
-  font-size: 32px;
-  line-height: 39.01px;
-  min-height: 70px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.24px;
 }
 .product-area .product-col{
   margin: 25px 0 25px;
@@ -23689,9 +23688,4 @@ div#youtube-video{
 span.mm-text.left-m-text{
   display: flex;
   justify-content: space-between;
-}
-.banner-img .img-zoom-effect .offer{
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 29.24px;
 }
