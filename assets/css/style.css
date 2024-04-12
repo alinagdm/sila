@@ -5217,6 +5217,9 @@ fieldset:disabled .btn {
 .ic-arrow:before{
   content: url('../images/svg/Vector_2.svg');
 }
+.ic-arrow-bottom:before{
+  content: url('../images/svg/Vector_3.svg');
+}
 .navbar-toggler-icon {
   display: inline-block;
   width: 1.5em;
@@ -19565,8 +19568,9 @@ div#youtube-video{
 }
 
 .widget-contact-info ul li {
-  font-weight: 300;
-  line-height: 28px;
+  font-weight: 500;
+  line-height: 24.38px;
+  font-size: 20px;
 }
 .contact-box{
   margin-top: 64px;
@@ -19591,10 +19595,10 @@ div#youtube-video{
   color: #df414b;
 }
 .footer-top{
-  padding: 25px;
+  padding: 25px 0 0 0 ;
 }
 .footer-area{
-  background: #1C1B1B;
+  background: #262626;
 }
 .footer-area .footer-main{
   border-bottom: 1px solid #fff;
@@ -20564,9 +20568,9 @@ div#youtube-video{
 }
 
 .offer{
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 30px;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 39.01px;
   min-height: 70px;
 }
 .product-area .product-col{
