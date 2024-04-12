@@ -359,7 +359,7 @@
 			spaceBetween: 50, 
 			loop: true,
 			loopedSlides: 7,
-			speed: 1000,
+			speed: 2000,
 			autoplay: {
 				enabled: true,
 				delay: 1,
