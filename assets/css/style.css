@@ -6794,6 +6794,11 @@ fieldset:disabled .btn {
 .modal-block>.dropdown.d-none.d-lg-block{
   margin-right: 50px;
 }
+@media (max-width:1442px){
+  .modal-block>.dropdown.d-none.d-lg-block{
+    margin-right: 10px;
+  }
+}
 .modal-open {
   overflow: hidden;
 }
