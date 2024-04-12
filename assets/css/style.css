@@ -19575,6 +19575,11 @@ div#youtube-video{
 .contact-box{
   margin-top: 64px;
 }
+.contact-box li a{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24.38;
+}
 
 .widget-contact-info ul li:not(:last-child) {
   padding-bottom: 5px;
@@ -19640,15 +19645,16 @@ div#youtube-video{
 .policy a{
   border-bottom: 1px solid ;
   color: #fff;
-  font-size: 14px;
-  font-weight: 200;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.38px;
 }
 
 .copyright-text {
   text-transform: capitalize;
-  font-size: 14px;
+  font-size: 20px;
   color: #fff;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .copyright-text a {
@@ -20519,7 +20525,6 @@ div#youtube-video{
 .banner-img {
   position: relative;
   min-height: 294px;
-  max-width: 550px;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0px 16px 56px 0px #11111A1A;
