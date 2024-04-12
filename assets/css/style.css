@@ -23595,7 +23595,7 @@ div#youtube-video{
   justify-content: space-between;
 }
 /* mobile media */
-@media (min-width:992px){
+@media (min-width:744px){
   .search-mobile{
     display: none;
   }
@@ -23701,4 +23701,12 @@ div#youtube-video{
 span.mm-text.left-m-text{
   display: flex;
   justify-content: space-between;
+}
+@media(max-width:744px){
+  .swiper-container.main-slider{
+    margin-top: 50px;
+  }
+  .swiper-container{
+    height: auto;
+  }
 }
