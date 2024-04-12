@@ -17741,8 +17741,11 @@ box-shadow: 0px 93px 26px 0px #26262600;
 }
 .header-middle{
   box-shadow: 0px 15px 15px 0px #26262617;
-
 }
+@media(max-width:1784px){
+  .header-middle .col-2{
+  display:none;
+}}
 
 /* ---Main Header--- */
 .main-nav > ul {
