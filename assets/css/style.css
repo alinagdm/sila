@@ -19613,6 +19613,10 @@ div#youtube-video{
 .footer-area{
   background: #262626;
 }
+.footer-area .widget-list-item li a{
+  font-size: 20px;
+  line-height: 24.38px;
+}
 .footer-area .footer-main{
   border-bottom: 1px solid #fff;
   padding-bottom: 20px;
@@ -23710,3 +23714,4 @@ span.mm-text.left-m-text{
     height: auto;
   }
 }
+
