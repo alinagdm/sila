@@ -23725,6 +23725,6 @@ span.mm-text.left-m-text{
 .modal-calc .form-calc-block{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 0 50px;
+  column-gap: 50px;
 }
 
