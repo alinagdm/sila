@@ -23720,11 +23720,11 @@ span.mm-text.left-m-text{
 }
 .modal-calc{
   width: 100%;
-  max-width: 678px;
+  max-width: 951px;
 }
 .modal-calc .form-calc-block{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 50px;
+  column-gap: 0 50px;
 }
 
