@@ -19801,6 +19801,7 @@ h3.searchbox-info {
   font-size: 20px;
   display: block;
   color: #212529;
+  font-weight: 600;
   letter-spacing: 0.5px;
   text-align: center;
   font-size: 32px;
@@ -24539,4 +24540,7 @@ span.mm-text.left-m-text {
 }
 .modal-calc .form-calc-block .calc-control {
   margin: 0 0 30px;
+}
+.modal-calc .form-block{
+  padding: 50px 0 50px;
 }
