@@ -369,6 +369,10 @@ textarea {
   font-size: inherit;
   line-height: inherit;
 }
+textarea {
+  max-width: 951px;
+  width: 100%;
+}
 
 button,
 select {
@@ -23713,5 +23717,14 @@ span.mm-text.left-m-text{
   .swiper-container{
     height: auto;
   }
+}
+.modal-calc{
+  width: 100%;
+  max-width: 678px;
+}
+.modal-calc .form-calc-block{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
 }
 
